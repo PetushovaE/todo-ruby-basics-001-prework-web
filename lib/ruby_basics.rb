@@ -1,6 +1,7 @@
-def division(num1, num2)
+def division(num1,num2)
   num1 = 42
-  num2 = 6
+  num2 = 7
+  num1/num2
 end
 
 def assign_variable(value)
@@ -9,12 +10,13 @@ end
 
 def argue(phrase)
 phrase = "I'm right and you are wrong!"
+argue="#{phrase}"
 end
 
 def greeting(greeting, name)
   greeting = "Hi there, "
   name = "Bobby!"
-  puts "#{greeting}, #{name}"
+  puts "#{greeting} #{name}"
 end
 
 def return_a_value(phrase="Nice")
@@ -26,5 +28,5 @@ def last_evaluated_value(phrase="expert")
 end
 
 def pizza_party(pie="cheese")
-pie
+  pie
 end
