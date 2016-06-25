@@ -10,7 +10,6 @@ end
 
 def argue(phrase)
 phrase = "I'm right and you are wrong!"
-argue="#{phrase}"
 end
 
 def greeting(greeting, name)
@@ -19,8 +18,8 @@ def greeting(greeting, name)
   puts "#{greeting} #{name}"
 end
 
-def return_a_value(phrase="Nice")
-  "Nice"
+def return_a_value
+  return "Nice"
 end
 
 def last_evaluated_value(phrase="expert")
